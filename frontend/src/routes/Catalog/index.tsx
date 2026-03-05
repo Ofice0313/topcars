@@ -6,9 +6,15 @@ export default function Catalog() {
     return(
         <>
         <Header />
-        <main>
-            <section id="catalog-section" className="top-cars-container">
-                <SearchBar />
+        <main className="top-cars-catalog-main">
+            <section id="top-cars-catalog-section" className="top-cars-container">
+                <div className="top-cars-container">
+                    <SearchBar />
+                </div>
+
+                <div className="top-cars-catalog-cards-container">
+
+                </div>
             </section>
         </main>
         </>

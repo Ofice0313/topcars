@@ -10,16 +10,22 @@
 }
 
 .top-cars-search-bar button {
-    width: 77px;
+    /* width: 77px; */
     background-color: var(--top-cars-button-color-bg);
     color: var(--top-cars-button-color-text);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 0 11px;
 }
 
 .top-cars-search-bar input {
     width: calc(100% - 80px);
     border-right: none;
-    padding: 0 10px;
+    padding: 0 15px;
     color: var(--top-cars-input-color-text);
+    border: 1px solid var(--top-cars-input-border-color);
+    border-right: none;
 }
 
 .top-cars-search-bar input:focus {

@@ -26,8 +26,40 @@
     font-family: 'Montserrat', 'Open Sans', 'Poppins', 'Roboto Condensed', 'Roboto Mono', sans-serif;
 }
 
+html, body {
+  background-color: var(--top-cars-color-bg-primary);
+}
+
 .top-cars-container {
     width: 100%;
-    max-width: 979px;
+    max-width: 980px;
     margin: 0 auto;
+}
+
+@media(min-width: 576px) {
+  .top-cars-container {
+    padding: 0 16px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 24px;
+  }
+}
+
+
+/*--------------------------------------*/
+/* header styles */
+
+nav h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--top-cars-header-color-text);
+}
+
+/*------------------------------------------------------*/
+/*----------------- Search bar styles ------------------*/
+
+@media(min-width: 576px) {
+  .top-cars-search-bar {
+   
+  }
 }

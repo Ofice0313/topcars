@@ -1,3 +1,17 @@
-#catalog-section {
+#top-cars-catalog-section {
     padding: 40px 0;
+}
+
+.top-cars-catalog-search-bar-container {
+    margin-bottom: 40px;
+}
+
+.top-cars-catalog-main {
+    padding: 0 10px;
+}
+
+@media(min-width: 576px) {
+  .top-cars-catalog-main {
+    padding: 0 20px;
+  }
 }
