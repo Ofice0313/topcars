@@ -1,0 +1,46 @@
+.top-cars-search-bar {
+    height: 40px;
+    display: flex;
+    color: var(--top-cars-input-color-text);
+}
+
+.top-cars-search-bar button, .top-cars-search-bar input {
+    border: 1px solid var(--top-cars-input-border-color);
+    padding: 0 10px;
+}
+
+.top-cars-search-bar button {
+    width: 77px;
+    background-color: var(--top-cars-button-color-bg);
+    color: var(--top-cars-button-color-text);
+}
+
+.top-cars-search-bar input {
+    width: calc(100% - 80px);
+    border-right: none;
+    padding: 0 10px;
+    color: var(--top-cars-input-color-text);
+}
+
+.top-cars-search-bar input:focus {
+    outline: none;
+}
+
+.top-cars-search-bar input::placeholder {
+    color: var(--top-cars-input-color-text);
+}
+
+.top-cars-search-bar button:hover {
+    background-color: var(--top-cars-button-color-bg);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.top-cars-search-bar button[type="submit"] {
+    border-right: none;
+    border-radius: 0 4px 4px 0;
+}
+
+.top-cars-search-bar input {
+    border-radius: 4px 0 0 4px;
+}

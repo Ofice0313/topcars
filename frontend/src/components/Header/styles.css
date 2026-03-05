@@ -1,0 +1,5 @@
+.top-cars-header {
+    background-color: var(--top-cars-header-color-bg);
+    color: var(--top-cars-header-color-text);
+    padding: 20px 0;
+}
